@@ -1,9 +1,12 @@
 # Reddit App
 
+## Proje Açıklaması
+Bu proje, Reddit gönderilerini görüntülemek, aramak ve kategorilere göre filtrelemek için oluşturulmuş bir React uygulamasıdır. Kullanıcılar, gönderilerin detaylarını görüntüleyebilir ve Reddit'te gönderilere erişebilirler.
+
 ## Wireframes
 [Wireframes](path/to/wireframes)
 
-## Technologies Used
+## Kullanılan Teknolojiler
 - React
 - Redux
 - Redux Toolkit
@@ -11,48 +14,52 @@
 - Jest
 - Enzyme
 - CSS (Flexbox, Grid)
-- Lighthouse
+- Bootstrap
+- Font Awesome
 
-## Features
-- Responsive design for all devices
-- Search functionality
-- Filter by categories
-- Detailed view of posts
-- Cohesive design system
-- Animations and transitions
-- Error handling
+## Özellikler
+- Tüm cihazlar için duyarlı tasarım
+- Arama işlevselliği
+- Kategorilere göre filtreleme
+- Gönderilerin detaylı görünümü
+- Tutarlı tasarım sistemi
+- Animasyonlar ve geçişler
+- Hata yönetimi
 
-## Future Work
-- Add user authentication
-- Allow users to post comments
-- Implement dark mode
+## Kurulum
+Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
 
-## Unit Tests
-Unit tests for components are written using Jest and Enzyme.
+1. Depoyu klonlayın:
+    ```bash
+    git clone https://github.com/kullanici-adi/reddit-app.git
+    ```
 
-## End-to-End Tests
-End-to-end tests are written using Cypress.
+2. Proje dizinine gidin:
+    ```bash
+    cd reddit-app
+    ```
 
-## Usage
-Users can use the application on any device (desktop to mobile) and any modern browser. The application can be accessed at [URL](http://your-app-url.com).
+3. Gerekli bağımlılıkları yükleyin:
+    ```bash
+    npm install
+    ```
 
-## Initial View
-Users see an initial view of the data when first visiting the app.
+4. Uygulamayı başlatın:
+    ```bash
+    npm start
+    ```
 
-## Search
-Users can search the data using terms.
+## Kullanım
+- Uygulama açıldığında, popüler Reddit gönderileri görüntülenir.
+- Arama çubuğunu kullanarak belirli gönderileri arayabilirsiniz.
+- Sol taraftaki kategori filtresini kullanarak gönderileri kategorilere göre filtreleyebilirsiniz.
+- Gönderi kartına tıklayarak gönderinin detaylarını görüntüleyebilirsiniz.
+- "View on Reddit" butonuna tıklayarak gönderiyi Reddit'te görüntüleyebilirsiniz.
 
-## Filter
-Users can filter the data based on predefined categories.
+## Gelecek Çalışmalar
+- Kullanıcı kimlik doğrulaması ekleme
+- Kullanıcıların yorum yapmasına izin verme
+- Karanlık mod uygulaması
 
-## Detailed View
-Users are shown a detailed view (modal or new page/route) when they select an item.
-
-## Design
-Users are delighted with a cohesive design system and animations/transitions.
-
-## Error Handling
-Users are able to leave an error state.
-
-## Lighthouse Scores
-The application aims to achieve 90+ scores on Lighthouse. It is okay to have a score below 90 for Performance if they are related to media from Reddit.
+## Katkıda Bulunma
+Katkıda bulunmak isterseniz, lütfen bir pull request gönderin veya bir issue açın. Her türlü katkı ve geri bildirim memnuniyetle karşılanır.
